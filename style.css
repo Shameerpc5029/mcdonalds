@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif
+}
+.text1 div{
+    font-size: 14px;
+    
+}
+li{
+    list-style: none;
+}
+.top-nav a { 
+    font-size: 14px;
+}
+.navbar{
+    color: black;
+    
+}
+.section-body-1 .text-2{
+    font-size: 10px;
+}
+.section-body-1 .heading{
+    font-weight: 700;
+    line-height: 40px;
+}
+.section-body-1 .text-1{
+    letter-spacing: -0.8px;
+}
+.section-line .line{
+    height: 1px;
+    background: #dddddd;
+}
+
+.section-footer img{
+    width: 30px;
+}
+.section-footer a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width:576px){
+    
+    
+    .section-header img{
+        height: 50px;
+        
+        margin: 0;
+    }
+    .section-body-2{
+        text-align: center;
+        
+    }
+    .section-body-1{
+        text-align: center;
+    }
+    .section-footer a{
+        font-size: 9px;
+    }
+    .section-footer p{
+        font-size: 9px;
+    }
+    .social{
+        text-align: center;
+    }
+   
+}
